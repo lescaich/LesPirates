@@ -1,8 +1,8 @@
 package les_pirates;
 
-public class Pirates {
+public class Case {
 
-	public Pirates() {
+	public Case() {
 		// TODO Auto-generated constructor stub
 	}
 
