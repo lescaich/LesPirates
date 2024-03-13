@@ -6,10 +6,15 @@ public class Pirate {
 	private String nom;
 	private Couleur couleur;
 	private int position;
+	private Arme arme;
 	
-	
-	public Pirate() {
-		// TODO Auto-generated constructor stub
+	public Pirate(int pV, String nom, Couleur couleur, int position, Arme arme) {
+		super();
+		PV = pV;
+		this.nom = nom;
+		this.couleur = couleur;
+		this.position = position;
+		this.arme = arme;
 	}
 	
 	public int getPV() {
@@ -24,9 +29,14 @@ public class Pirate {
 		return couleur;
 	}
 
+	public Arme getArme() {
+		return arme;
+	}
+
 	public int getPosition() {
 		return position;
 	}
 	
+	//public
 	
 }
