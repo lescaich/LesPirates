@@ -4,12 +4,14 @@ public class Case {
 	
 	private int numero;
 	private Effet effet;
+	private Arme arme;
 	
-	
-	public Case() {
-		// TODO Auto-generated constructor stub
+	public Case(int numero, Effet effet) {
+		super();
+		this.numero = numero;
+		this.effet = effet;
 	}
-	
+
 	public int getNumero() {
 		return numero;
 	}
