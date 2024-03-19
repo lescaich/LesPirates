@@ -37,6 +37,16 @@ public class Pirate {
 		return position;
 	}
 	
-	//public
+	public void setPV(int pV) {
+		PV = pV;
+	}
+	
+	public void setArme(Arme arme) {
+		this.arme = arme;
+	}
+	
+	public void appliquerEffet(int position) {
+		
+	}
 	
 }
