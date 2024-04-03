@@ -3,22 +3,22 @@ package les_pirates;
 public class Case {
 	
 	private int numero;
-	private Effet effet;
-	private Arme arme;
+	//private Effet effet;
+	//private Arme arme;
 	
-	public Case(int numero, Effet effet) {
+	public Case(int numero) {
 		super();
 		this.numero = numero;
-		this.effet = effet;
+		//this.effet = effet;
 	}
 
 	public int getNumero() {
 		return numero;
 	}
 	
-	public Effet getEffet() {
+	/*public Effet getEffet() {
 		return effet;
-	}
+	}*/
 	
 	
 }
