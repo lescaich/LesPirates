@@ -17,11 +17,11 @@ public class Affichage {
 		System.out.println("Position Bill : ");
 		System.out.println(pirate.getPosition());
 		System.out.println("Bill avance d'1 case. ");
-		pirate.SeDeplace(1);
+		pirate.seDeplace(1);
 		System.out.println("Position Bill : ");
 		System.out.println(pirate.getPosition());
 		System.out.println("Bill avance d'1 case. ");
-		pirate.SeDeplace(1);
+		pirate.seDeplace(1);
 		System.out.println("Position Bill : ");
 		System.out.println(pirate.getPosition());
 	}

@@ -34,7 +34,7 @@ public class Pirate {
 		PV = pV;
 	}
 	
-	public void SeDeplace(int nbCases) {
+	public void seDeplace(int nbCases) {
 		position += nbCases;
 	}
 	
