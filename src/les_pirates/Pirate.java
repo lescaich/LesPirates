@@ -5,16 +5,13 @@ public class Pirate {
 	private int PV = 5;
 	private String nom;
 	private Couleur couleur;
-	private int position;
-	//private Arme arme;
+	private int position = 0;
 	
-	public Pirate(int pV, String nom, Couleur couleur, int position) {
+	public Pirate(int pV, String nom, Couleur couleur) {
 		super();
 		PV = pV;
 		this.nom = nom;
 		this.couleur = couleur;
-		this.position = position;
-		//this.arme = arme;
 	}
 	
 	public int getPV() {
@@ -29,10 +26,6 @@ public class Pirate {
 		return couleur;
 	}
 
-	/*public Arme getArme() {
-		return arme;
-	}*/
-
 	public int getPosition() {
 		return position;
 	}
@@ -41,12 +34,8 @@ public class Pirate {
 		PV = pV;
 	}
 	
-	/*public void setArme(Arme arme) {
-		this.arme = arme;
+	public void SeDeplace(int nbCases) {
+		position += nbCases;
 	}
-	
-	public void appliquerEffet(int position) {
-		
-	}*/
 	
 }
